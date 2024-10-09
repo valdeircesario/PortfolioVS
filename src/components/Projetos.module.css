@@ -7,9 +7,9 @@
 }
 
 .titulo > div {
-  flex: 1; /* Cada div ocupa a mesma largura */
-  text-align: center; /* Centraliza o conteúdo */
-  transition: opacity 0.3s ease; /* Para animação suave ao ocultar */
+  flex: 1; 
+  text-align: center; 
+  transition: opacity 0.3s ease; 
 }
 
 
@@ -20,14 +20,14 @@
   margin: 30px auto; 
   padding: 20px;
   gap: 20px; 
-  transform: translateY(100%); /* Começa fora da tela */
-  opacity: 0; /* Começa invisível */
+  transform: translateY(100%); 
+  opacity: 0; 
   transition: transform 0.8s ease, opacity 0.8s ease;
 }
 
 .proj01.visible {
-  transform: translateY(0); /* Move para a posição original */
-  opacity: 0.8; /* Torna visível */
+  transform: translateY(0); 
+  opacity: 0.8; 
 }
 
 .element {
@@ -83,34 +83,34 @@
   
 }
 
-/* Estilos para telas menores */
+
 @media (max-width: 1278px) and (min-width: 780px) {
   .titulo {
-    flex-direction: column; /* Muda a direção do flex para coluna */
+    flex-direction: column; 
   }
 
   .titulo > div {
-    flex: none; /* Remove a flexibilidade para que fiquem em coluna */
+    flex: none; 
   }
 
   .titulo > div:nth-child(1),
   .titulo > div:nth-child(3) {
-    order: 1; /* Elemento 1 e 3 na parte superior */
+    order: 1; 
   }
 
   .titulo > div:nth-child(2) {
-    order: 2; /* Elemento 2 abaixo */
+    order: 2; 
   }
 }
 
-/* Estilos para telas abaixo de 780px */
+
 @media (max-width: 780px) {
   .titulo {
-    flex-direction: column; /* Muda a direção do flex para coluna */
+    flex-direction: column; 
   }
 
   .titulo > div {
-    flex: none; /* Remove a flexibilidade para que fiquem em coluna */
-    width: 90%; /* Faz cada elemento ocupar toda a largura disponível */
+    flex: none; 
+    width: 90%; 
   }
 }

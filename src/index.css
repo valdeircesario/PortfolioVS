@@ -4,7 +4,7 @@ body {
     background: linear-gradient(to bottom, #777676, #181616, #767577); /* Fundo preto */
     color: #D3D3D3;
     font-family: Arial, sans-serif;
-    line-height: 1 ; /* Espaçamento entre linhas */
+    line-height: 1 ; 
 }
 
 h1, h2, h3 {
