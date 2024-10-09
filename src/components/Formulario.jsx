@@ -37,6 +37,7 @@ const Formulario = () => {
   };
 
   return (
+    <div className={Styles.formulario}>
     <form className={Styles.form} onSubmit={handleSubmit}>
       <h2>Entre em Contato Comigo:</h2>
       <div className={Styles.container}>
@@ -94,6 +95,7 @@ const Formulario = () => {
         <button type="submit">Enviar</button>
       </div>
     </form>
+    </div>
   );
 };
 

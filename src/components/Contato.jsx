@@ -4,7 +4,7 @@ import Styles from "./Contatos.module.css"
 import Formulario from "./Formulario"
 import Rodape from "./Footer"
 import Faixa from "./Faixa"
-import Terminal from "./Terminal"
+
 
 function Contato(){
     return(
@@ -18,6 +18,8 @@ function Contato(){
                 
                 </div>
         </div>
+        
+    
         <Faixa/>
         <Rodape/>
         

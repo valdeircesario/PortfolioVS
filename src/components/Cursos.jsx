@@ -1,5 +1,6 @@
 
 import Addcursos from './Addcursos'
+import Cubooo from './CuboMagico'
 import Styles from './Cursos.module.css'
 import Faixa from './Faixa'
 import Rodape from './Footer'
@@ -10,15 +11,20 @@ function Cursos(){
         
                
 <div className={`${Styles.scroll} ${Styles.snap} ${Styles.card}`}>
-    <Header/> 
+    <Header/>
+    
     
     <div className={`${Styles.slide} ${Styles.red}`}>
+        
+        
 
         <marquee>Cursos que Me Proporcionaram Amplo Conhecimento:</marquee>
       
     
     
         <div className={Styles.component}>
+            <Cubooo/>
+            <Faixa/>
             
             
             <Addcursos 

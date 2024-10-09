@@ -5,6 +5,7 @@ import Button from "./Download";
 
 function Addcursos({ imgSrc, coverSrc, altText, title, description }) {
   return (
+    
     <div className={Styles.flipCard}>
       <div className={Styles.flipCardInner}>
         <div className={Styles.flipCardFront}>

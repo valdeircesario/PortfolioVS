@@ -2,7 +2,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const CuboMagico = () => {
+const Cubooo = () => {
   return (
     <StyledWrapper>
       <div className="cube-container">
@@ -32,7 +32,7 @@ const StyledWrapper = styled.div`
 }
 
 .cube-container:hover {
-  transform: scale(1.3);
+  transform: scale(1.8);
 }
 
 .cube {
@@ -101,4 +101,4 @@ const StyledWrapper = styled.div`
 
 `;
 
-export default CuboMagico
+export default Cubooo
