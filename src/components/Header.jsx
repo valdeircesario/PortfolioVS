@@ -37,15 +37,15 @@ const Header = () => {
       </div>
       <nav className={`${Styles.navLinks} ${isOpen ? Styles.open : ''}`}>
         <Link className={Styles.link} to="/">Home</Link>
-        <Link className={Styles.link} to="/src/components/SobreMim.jsx">Sobre Mim</Link>
+        <Link className={Styles.link} to="/src/components/SobreMim.jsx">Sobre</Link>
         <Link className={Styles.link} to="/src/components/Projetos.jsx">Projetos</Link>
         <Link className={Styles.link} to="/src/components/Cursos.jsx">Cursos</Link>
         <Link className={Styles.link} to="/src/components/Contato.jsx">Contato</Link>
       </nav>
       <div className={Styles.hamburger} onClick={toggleMenu}>
-        <div className={Styles.line}>a</div>
-        <div className={Styles.line}>a</div>
-        <div className={Styles.line}>a</div>
+        <div className={Styles.line}>{}</div>
+        <div className={Styles.line}>{}</div>
+        <div className={Styles.line}>{}</div>
       </div>
     </header>
   );

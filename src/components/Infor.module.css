@@ -80,8 +80,8 @@
 .links img {
     margin-top: 3PX;
   margin-right: 10px;
-  width: 30px; /* Ajuste o tamanho conforme necessário */
-  height: 30px; /* Ajuste o tamanho conforme necessário */
+  width: 30px; 
+  height: 30px; 
 }
 
 @media (max-width: 600px) {

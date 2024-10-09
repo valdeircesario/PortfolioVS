@@ -47,6 +47,11 @@
     line-height: 1.5;
     margin-top: 40px; 
     text-align: justify;font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 0.8s ease-out;
+}
+.sobre p:hover{
+    transform: scale(1.05);
+    
 }
 
 .sobre img {

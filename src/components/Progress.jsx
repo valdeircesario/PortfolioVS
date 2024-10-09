@@ -11,10 +11,10 @@ const Progreso = () => {
       ([entry]) => {
         if (entry.isIntersecting) {
           setIsVisible(true);
-          observer.disconnect(); // Para não observar mais após estar visível
+          observer.disconnect(); 
         }
       },
-      { threshold: 0.1 } // Ajuste o threshold conforme necessário
+      { threshold: 0.1 } 
     );
 
     if (progresoRef.current) {
