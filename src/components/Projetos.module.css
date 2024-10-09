@@ -1,0 +1,116 @@
+.titulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  margin-top: 60px;;
+}
+
+.titulo > div {
+  flex: 1; /* Cada div ocupa a mesma largura */
+  text-align: center; /* Centraliza o conteúdo */
+  transition: opacity 0.3s ease; /* Para animação suave ao ocultar */
+}
+
+
+
+.proj01 {
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto; 
+  padding: 20px;
+  gap: 20px; 
+  transform: translateY(100%); /* Começa fora da tela */
+  opacity: 0; /* Começa invisível */
+  transition: transform 0.8s ease, opacity 0.8s ease;
+}
+
+.proj01.visible {
+  transform: translateY(0); /* Move para a posição original */
+  opacity: 0.8; /* Torna visível */
+}
+
+.element {
+    width: 100%; 
+    padding: 15px; 
+    
+}
+.text li,p{
+    font-size: 1.2rem;
+     color: #10eef5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text h2 ,strong{
+    font-size: 1.5rem;
+     color:#d0cffc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
+@media (min-width: 868px) {
+  
+    .proj01 {
+        margin-top: 50px;
+        flex-direction: row; 
+        justify-content: space-between;
+    }
+
+    .element {
+        width: 45%; 
+        margin-bottom: 20px; 
+    }
+}
+
+@media (max-width: 568px) {
+    .element {
+        width: 90%;
+    }
+
+    
+
+    .text p, 
+    .text h3 {
+        font-size: 1rem;
+    }
+}
+/* Estilos para telas maiores */
+@media (min-width: 768px) {
+  
+}
+
+/* Estilos para telas menores */
+@media (max-width: 1278px) and (min-width: 780px) {
+  .titulo {
+    flex-direction: column; /* Muda a direção do flex para coluna */
+  }
+
+  .titulo > div {
+    flex: none; /* Remove a flexibilidade para que fiquem em coluna */
+  }
+
+  .titulo > div:nth-child(1),
+  .titulo > div:nth-child(3) {
+    order: 1; /* Elemento 1 e 3 na parte superior */
+  }
+
+  .titulo > div:nth-child(2) {
+    order: 2; /* Elemento 2 abaixo */
+  }
+}
+
+/* Estilos para telas abaixo de 780px */
+@media (max-width: 780px) {
+  .titulo {
+    flex-direction: column; /* Muda a direção do flex para coluna */
+  }
+
+  .titulo > div {
+    flex: none; /* Remove a flexibilidade para que fiquem em coluna */
+    width: 90%; /* Faz cada elemento ocupar toda a largura disponível */
+  }
+}

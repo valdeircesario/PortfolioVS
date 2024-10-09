@@ -1,0 +1,145 @@
+.sobre {
+    padding-top: -50px;
+    align-items: center;
+    margin: 0 20%;
+    display: flex; 
+    flex-direction: column; 
+}
+
+.logo {
+    margin-top: -150px;
+    margin-bottom: -200px;
+}
+
+.text {
+    flex: 2; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+.sobre h2 {
+    
+    text-align: center; 
+    font-size: 2.4rem;
+    color: #10eef5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ifg li {
+    color: #10eef5;
+    margin-top: 0;
+    list-style-type: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sobre h3 {
+    margin-top: -20px;
+    color: #10eef5;
+    text-align: center; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+}
+
+.sobre p {
+    color: #10eef5;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-top: 40px; 
+    text-align: justify;font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sobre img {
+    width: 200px;
+    height: auto; 
+}
+
+.ifg {
+    margin: 20px auto; 
+    text-align: center; 
+}
+
+.ifg a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(10, 198, 60);
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1.5rem;
+    gap: 20px;
+}
+
+.icons img {
+    margin-top: 30px;
+    width: 45px;
+    height: 45px;
+    transition: transform 0.3s ease;
+    
+}
+.icons img:hover{
+    
+    transform: scale(2);
+}
+
+.icons h3 {
+    margin: 2% auto; 
+    font-size: 1.4rem;
+    color: #10eef5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+@media (max-width: 768px) {
+    .sobre {
+        margin: 0 10%; 
+    }
+
+    .logo,
+    .text {
+        width: 100%; 
+        text-align: center; 
+    }
+
+    .sobre h2 {
+        font-size: 2rem; 
+    }
+
+    .sobre h3 {
+        font-size: 1.5rem; 
+    }
+
+    .ifg {
+        margin: 20px 0; 
+    }
+
+    .icons img {
+        width: 35px; 
+        height: 35px;
+    }
+
+    .icons h3 {
+        font-size: 1.2rem; 
+    }
+}
+
+@media (max-width: 480px) {
+    .sobre {
+        margin: 0 5%; 
+    }
+
+    .sobre h2 {
+        font-size: 1.8rem; 
+    }
+
+    .sobre h3 {
+        font-size: 1.2rem; 
+    }
+
+    .ifg {
+        margin: 10px 0; 
+    }
+}
+

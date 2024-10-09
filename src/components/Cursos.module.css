@@ -1,0 +1,60 @@
+.scroll {
+    overflow-y: auto; /* Permite rolagem vertical */
+}
+
+.snap {
+    scroll-snap-type: y mandatory; /* Para rolagem suave */
+}
+
+.card {
+    display: flex;
+    flex-direction: column; /* Alinha os slides em coluna */
+}
+
+.slide {
+    display: flex;
+    flex-direction: column; /* Permite que o conteúdo do slide fique em coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    width: 100%; /* Ocupa toda a largura */
+}
+
+marquee {
+    font-size: 2.6rem;
+    width: 50%;
+    text-align: center; /* Centraliza o texto */
+    margin: 100px 0;
+    color: rgb(248, 246, 246); /* Ajusta a margem para cima e para baixo */
+}
+
+.component {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinha os itens ao topo */
+    gap: 40px;
+    flex-wrap: wrap; /* Permite que os itens se movam para a linha seguinte */
+    width: 100%; /* Ocupa 100% da largura */
+    padding: 20px; /* Adiciona um pouco de espaço interno */
+}
+
+.flipCard {
+    background-color: transparent;
+    width: 100%; /* Ocupa 100% da largura do contêiner */
+    max-width: 300px; /* Limita a largura máxima do cartão */
+    height: 400px;
+    perspective: 1000px;
+    font-family: sans-serif;
+}
+
+@media (max-width: 768px) {
+    .flipCard {
+        max-width: 90%; /* Ajusta a largura máxima para 90% em telas menores */
+        height: auto; /* Permite que a altura se ajuste automaticamente */
+    }
+}
+
+@media (max-width: 480px) {
+    .flipCard {
+        max-width: 100%; /* Ocupa 100% em telas muito pequenas */
+        height: auto; /* Permite que a altura se ajuste automaticamente */
+    }
+}
