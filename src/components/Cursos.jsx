@@ -1,5 +1,6 @@
 
 import Addcursos from './Addcursos'
+import DownloadButton from './Baixacv'
 import Cubooo from './CuboMagico'
 import Styles from './Cursos.module.css'
 import Faixa from './Faixa'
@@ -9,12 +10,16 @@ import Header from './Header'
 function Cursos(){
     return(
         
-               
+ <>
+ <Header/>
+ <DownloadButton/>              
 <div className={`${Styles.scroll} ${Styles.snap} ${Styles.card}`}>
-    <Header/>
+    
+    
     
     
     <div className={`${Styles.slide} ${Styles.red}`}>
+        
         
         
 
@@ -146,6 +151,7 @@ function Cursos(){
 <Faixa/>
 <Rodape/>
 </div>
+</>
 
 
     )

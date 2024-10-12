@@ -5,14 +5,15 @@ import Styles from "./SobreMin.module.css";
 import Header from "./Header"
 import Sobremim from "./Sobre"
 import Rodape from './Footer';
-import Card from './card';
 import Cubo from './Cubo';
 import Faixa from './Faixa';
+import DownloadButton from './Baixacv';
 
 function SobreMim(){
     return(
         <>
         <Header/>
+        <DownloadButton/>
         
         <Cubo/>
         <Sobremim/>

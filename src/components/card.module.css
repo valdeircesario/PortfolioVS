@@ -55,6 +55,14 @@
   inset: 3px;
   border-radius: 30px;
   
-}  
+} 
+
+@media (min-width:600px) {
+  .center{
+    width: 90%;
+    margin:10px;
+  }
+  
+}
 
 

@@ -82,7 +82,8 @@ const Terminal = () => {
 
 const StyledWrapper = styled.div`
   .card {
-    margin: 40px;
+  margin-top:100px;
+    
     padding: 1rem;
     border: 1px solid #c5c5c5;
     border-radius: 12px;

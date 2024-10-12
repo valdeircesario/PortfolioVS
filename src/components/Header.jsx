@@ -33,7 +33,7 @@ const Header = () => {
   return (
     <header className={`${Styles.header} ${isVisible ? '' : Styles.hidden}`}>
       <div className={Styles.logoContainer}>
-        <span className={Styles.siteName}>Portfolio</span>
+        <Link className={Styles.siteName} to="/">Portfolio</Link>
       </div>
       <nav className={`${Styles.navLinks} ${isOpen ? Styles.open : ''}`}>
         <Link className={Styles.link} to="/">Home</Link>

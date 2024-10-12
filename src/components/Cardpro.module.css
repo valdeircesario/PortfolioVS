@@ -70,3 +70,22 @@ margin-top: 10px;
   -ms-transform: rotatey(-80deg);
   transform: rotatey(-80deg);
 }
+
+@media (max-width: 768px) {
+    .book {
+        width: 90%; /* Largura adaptável em telas menores */
+        height: auto; /* Altura automática para manter a proporção */
+        max-width: 300px; /* Largura máxima para evitar que fique muito largo */
+    }
+}
+
+@media (max-width: 480px) {
+    .book {
+        width: 95%; /* Largura ainda maior em telas muito pequenas */
+        height: auto; /* Altura automática */
+    }
+
+    .book img {
+        border-radius: 5px; /* Reduz a borda em telas menores */
+    }
+}

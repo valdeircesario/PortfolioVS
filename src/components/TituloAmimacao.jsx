@@ -7,6 +7,7 @@ function AnimatedTitle({text}) {
     return (
 
   <div className={Styles.scanner}>
+    
     <marquee>{text}</marquee>
   </div>
     ) 

@@ -4,12 +4,14 @@ import Styles from "./Contatos.module.css"
 import Formulario from "./Formulario"
 import Rodape from "./Footer"
 import Faixa from "./Faixa"
+import DownloadButton from "./Baixacv"
 
 
 function Contato(){
     return(
         <>
         <Header/>
+        <DownloadButton/>
         <div className={Styles.globo}>
             <div><Cardes/></div>
             

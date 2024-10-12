@@ -51,7 +51,7 @@ const Progreso = () => {
           </div>
         </div>
         <div className="skill-box">
-          <span className="title">JAVASCRIPT</span>
+          <span className="title">JavaScript</span>
 
           <div className="skill-bar">
             <span className="skill-per javascript">
@@ -60,7 +60,7 @@ const Progreso = () => {
           </div>
         </div>
         <div className="skill-box">
-          <span className="title">JAVA</span>
+          <span className="title">Java</span>
 
           <div className="skill-bar">
             <span className="skill-per nodejs">
@@ -70,7 +70,7 @@ const Progreso = () => {
         </div>
         
         <div className="skill-box">
-          <span className="title">REACT</span>
+          <span className="title">React</span>
           
           <div className="skill-bar">
             <span className="skill-per react">
@@ -80,7 +80,7 @@ const Progreso = () => {
         </div>
 
         <div className="skill-box">
-          <span className="title">ANGULAR</span>
+          <span className="title">Angular</span>
           
           <div className="skill-bar">
             <span className="skill-per angular">
@@ -90,7 +90,7 @@ const Progreso = () => {
         </div>
 
         <div className="skill-box">
-          <span className="title">POSTGRES</span>
+          <span className="title">Postgresql</span>
           
           <div className="skill-bar">
             <span className="skill-per postgres">
@@ -100,7 +100,7 @@ const Progreso = () => {
         </div>
 
         <div className="skill-box">
-          <span className="title">QUARKUS</span>
+          <span className="title">Quarkus</span>
           
           <div className="skill-bar">
             <span className="skill-per quarkus">
@@ -110,7 +110,7 @@ const Progreso = () => {
         </div>
       </div>
       <div className={`container ${isVisible ? "visible" : ""}`} ref={progresoRef}>
-        <h2>Habilidades Interpessoais e Soft Skills Essenciais</h2>
+        <h2>SOFT SKILLS E METODOLOGIAS.</h2>
         <div className="skill-box">
           <span className="title">Trabalho em Equipe:</span>
 
@@ -161,6 +161,36 @@ const Progreso = () => {
           <div className="skill-bar">
             <span className="skill-per Problemas">
               <span className="tooltip">90%</span>
+            </span>
+          </div>
+        </div>
+
+        <div className="skill-box">
+          <span className="title">Agile:</span>
+
+          <div className="skill-bar">
+            <span className="skill-per Agile">
+              <span className="tooltip">50%</span>
+            </span>
+          </div>
+        </div>
+
+        <div className="skill-box">
+          <span className="title">Scrum:</span>
+
+          <div className="skill-bar">
+            <span className="skill-per Scrum">
+              <span className="tooltip">40%</span>
+            </span>
+          </div>
+        </div>
+
+        <div className="skill-box">
+          <span className="title">Kanban:</span>
+
+          <div className="skill-bar">
+            <span className="skill-per Kanban">
+              <span className="tooltip">80%</span>
             </span>
           </div>
         </div>
@@ -304,6 +334,23 @@ margin-bottom: 40px;
 .skill-per.Problemas {
   /*progreso de las diferentes lenguajes*/
   width: 90%;
+  animation-delay: 0.3s;
+}
+
+.skill-per.Agile {
+  /*progreso de las diferentes lenguajes*/
+  width: 50%;
+  animation-delay: 0.3s;
+}
+
+.skill-per.Scrum {
+  /*progreso de las diferentes lenguajes*/
+  width: 40%;
+  animation-delay: 0.3s;
+}
+  .skill-per.Kanban {
+  /*progreso de las diferentes lenguajes*/
+  width: 80%;
   animation-delay: 0.3s;
 }
 

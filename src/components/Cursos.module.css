@@ -1,17 +1,23 @@
 .scroll {
     overflow-y: auto; /* Permite rolagem vertical */
+    
 }
 
 .snap {
     scroll-snap-type: y mandatory; /* Para rolagem suave */
+    
 }
 
 .card {
+    margin-top: -100px;
+    
     display: flex;
     flex-direction: column; /* Alinha os slides em coluna */
 }
 
 .slide {
+    
+    
     display: flex;
     flex-direction: column; /* Permite que o conteúdo do slide fique em coluna */
     align-items: center; /* Centraliza os itens horizontalmente */
@@ -19,6 +25,7 @@
 }
 
 marquee {
+    
     font-size: 2.6rem;
     width: 50%;
     text-align: center; /* Centraliza o texto */

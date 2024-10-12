@@ -1,0 +1,25 @@
+.container {
+    margin-top: 100px;
+    
+    display: flex;
+    margin-left: 40px;
+    
+    
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #069caa;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+    background-color: #bcf0f2;
+    color: black;
+    transform: scale(1.1);
+}

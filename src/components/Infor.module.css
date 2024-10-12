@@ -1,114 +1,110 @@
-
-
-
 .sobre {
-    
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap; /* Permite que os elementos se movam para a próxima linha */
+    justify-content: center; /* Centraliza os itens */
     align-items: flex-start;
     width: 100%;
     padding: 10px;
     gap: 20px;
-    margin-top: 8px;
-    
-    
+    margin-top: 88px;
 }
+
 .card {
     display: flex;
     justify-content: center; 
     align-items: center;    
-    height: 100vh; 
-    margin-top: -150px;
-    margin-bottom: -180px;          
+    height: auto; /* Ajusta para auto para responsividade */
+    margin: 100px 0; /* Espaçamento superior e inferior */
 }
 
 .foto {
     flex: 1;
-    margin-inline: 40;
+    margin: 20px; /* Margem ao redor da foto */
     text-align: center;
-    
-    
 }
-.foto h1{
-    margin-top: 0;
+
+.foto h1 {
+    margin-top: 10;
     font-size: 2.2rem;
     color: #10eef5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
 }
-.foto p{
-  margin-top: -25px;
+
+.foto p {
+    margin: 10px 0; /* Margens ajustadas */
     font-size: 1.3rem;
-    margin-bottom: 20px;
 }
-
-
-
-
 
 .links {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 .links a {
-    
-  width: 25%;
-  display: inline-block;
-  background-color: #676464;
-  margin: 8px 0;
-  padding: 6px 25px;
-  box-shadow: 0 5px 9px rgba(0, 0, 0, 0.9);
-  border-radius: 15px;
-  text-decoration: none;
-  color: #10eef5;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 1.6rem;
-  transition: background-color 0.3s, color 0.3s;
-  transition: 0.8s ease-out;
-  
+    width: 80%; /* Largura ajustada para melhor responsividade */
+    max-width: 300px; /* Limita a largura máxima */
+    display: inline-block;
+    background-color: #676464;
+    margin: 8px 0;
+    padding: 6px 25px;
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.9);
+    border-radius: 15px;
+    text-decoration: none;
+    color: #10eef5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+    transition: background-color 0.3s, color 0.3s;
 }
-.links a, img{
-    margin-top: auto;
-}
+
 .links a:hover {
-  transform: scale(1.03);
-  background-color: #b3bff0;
-  color: #676464;
+    transform: scale(1.03);
+    background-color: #b3bff0;
+    color: #676464;
 }
 
 .links img {
-    margin-top: 3PX;
-  margin-right: 10px;
-  width: 30px; 
-  height: 30px; 
+    margin-top: 3px;
+    margin-right: 10px;
+    width: 30px; 
+    height: 30px; 
 }
 
-@media (max-width: 600px) {
-  .links a {
-    width: 100%;
-    box-sizing: border-box;
-    text-align: center;
-  }
-  
-  .links img {
-    margin-right: 5px;
-  }
+/* Consultas de Mídia para Responsividade */
+@media (max-width: 768px) {
+    .sobre {
+        flex-direction: column; /* Empilha os itens em telas menores */
+        align-items: center; /* Centraliza os itens */
+    }
+
+    .foto {
+        margin: 10px 0; /* Margens ajustadas */
+    }
+
+    .foto h1 {
+        font-size: 1.8rem; /* Reduz o tamanho do texto para telas menores */
+    }
+
+    .foto p {
+        font-size: 1.1rem; /* Reduz o tamanho do texto */
+    }
+
+    .links a {
+        width: 90%; /* Aumenta a largura em telas menores */
+        font-size: 1.4rem; /* Ajusta o tamanho da fonte dos links */
+    }
 }
 
-@media (max-width: 600px) {
-  .links a {
-    width: 80%;
-    box-sizing: border-box;
-    text-align: center;
-  }
+@media (max-width: 480px) {
+    .foto h1 {
+        font-size: 1.5rem; /* Tamanho ainda menor para telas muito pequenas */
+    }
+
+    .foto p {
+        font-size: 1rem; /* Tamanho ainda menor para telas muito pequenas */
+    }
+
+    .links a {
+        font-size: 1.2rem; /* Ajusta o tamanho da fonte dos links */
+    }
 }
-
-
-
-
-
-
-
-
-

@@ -7,7 +7,7 @@
     display: flex; 
     justify-content: space-between;
     align-items: center; 
-    padding: 0 40px; 
+    padding: 0 20px; 
     background-color: #777676;
     color: #10eef5;
     z-index: 1000; 
@@ -28,18 +28,18 @@
   align-items: center;
 }
 
-.logo {
-  height: 50px;
-  width: 50px;
-  margin-right: 20px;
-  border: 3px solid rgb(4, 194, 178);
-  border-radius: 6px;
-}
+
 
 .siteName {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   color:#10eef5;
+  text-decoration: none;
   font-size: 2.5rem;
-  
-  
+  transition: transform 0.5s ease; 
+}
+
+.siteName:hover{
+  transform: scale(1.4);
 }
 
 .navLinks {
@@ -47,17 +47,26 @@
   display: flex;
   gap: 1rem;
   list-style: none;
-  margin-right: 35px;
+  margin-right: 65px;
 }
 
+
+
 .navLinks a {
+  font-family: Georgia, 'Times New Roman', Times, serif;
   color:#10eef5;
   display: grid;
   font-size: 1.5rem;
   place-content: center;
   margin-right: 30px;
   position: relative;
-  text-decoration: none;  
+  text-decoration: none;
+  transition: transform 0.5s ease;  
+}
+
+.navLinks a:hover{
+transform: scale(1.4);
+ 
 }
 .navLinks a::before{
   content: "";
@@ -65,7 +74,6 @@
   width: 100%;
   height: 2px;
   background: #10eef5;
-  border-radius: 5px;
   transform: scaleX(0);
   transition: all 0.5s ease;
   bottom: 0;
@@ -81,7 +89,7 @@
   cursor: pointer;
   margin-top: 20px;
   color:#777676;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .hamburger .line {
@@ -93,7 +101,7 @@
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .navLinks {
     display: none;
     flex-direction: column;
@@ -123,7 +131,7 @@
   .hamburger {
     display: flex;
     position:relative;
-    top: 0px;
+    margin-bottom: 15px;
     right: 100px;
     transform: translateX(0);
     z-index: 1001;
@@ -139,6 +147,21 @@
     position: absolute;
     top: 0px;
     right: 60px;
+    transform: translateX(0);
+  }
+
+  
+
+  
+
+  
+}
+@media (min-width) {
+  .hamburger {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    margin-right: 900px;
     transform: translateX(0);
   }
 

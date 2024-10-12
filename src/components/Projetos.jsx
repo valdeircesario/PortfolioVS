@@ -14,6 +14,7 @@ import { useEffect, useRef, useState } from 'react';
 import Loader from './Pc';
 
 
+
 function Projetos() {
   const projRefs = useRef([]); // Array de referências para múltiplos projetos
   const [visibleItems, setVisibleItems] = useState([]);
@@ -153,15 +154,19 @@ em critérios personalizados, garantindo a escolha mais adequada para suas neces
     <div>
        
       <Header />
+      
+      
       <div className={Styles.titulo}>
-        <div>
+        
+        
+        <div className={Styles.pc}>
              <Loader/>
           
         </div>
-        <div>
+        <div className={Styles.aminent}>
           <AnimatedTitle text="Nesta Página Você Encontrar Todos os Meus Projetos Relevantes!" />
         </div>
-        <div>
+        <div className={Styles.terminal}>
           <Terminal />
         </div>
       </div>

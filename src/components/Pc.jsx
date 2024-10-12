@@ -1,9 +1,11 @@
 import React from "react";
 import styled from "styled-components";
+import DownloadButton from "./Baixacv";
 
 const Loader = () => {
   return (
     <StyledWrapper>
+      <div><DownloadButton/></div>
       <div className="macbook">
         <div className="inner">
           <div className="screen">
@@ -116,13 +118,14 @@ const StyledWrapper = styled.div`
   position: center;
   left: 50%;
   top: 50%;
-  margin: 85px 0 0 78px;
+  margin: 25px 0 0 28px;
   perspective: 500px;
-  transition: transform 0.3s ease;
+  transition: transform 0.5s ease;
 }
 
 .macbook:hover{
-transform: scale(2); 
+transform: scale(2);
+ 
 }
 
 .shadow {
