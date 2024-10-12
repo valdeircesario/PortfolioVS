@@ -60,6 +60,7 @@
 /* Consultas de Mídia para Responsividade */
 @media (max-width: 768px) {
     .titulo {
+        margin-top: 10px;
         flex-direction: column; /* Muda a direção para coluna */
     }
 
@@ -99,6 +100,7 @@
 }
 
 @media (max-width: 568px) {
+    
     .text p {
         font-size: 1rem; /* Reduz o tamanho do texto */
     }
@@ -126,6 +128,7 @@
     .titulo {
         padding: 15px; /* Reduz o padding em telas pequenas */
     }
+    
 
     .text h2, .text strong {
         font-size: 1.2rem; /* Tamanho do título menor */

@@ -93,9 +93,9 @@ transform: scale(1.2);
 
 }
   .section-banner {
-  margin:80px;
-  height: 500px;
-  width: 500px;
+  margin:60px;
+  height: 450px;
+  width: 450px;
   position: relative;
   transition: left 0.3s linear;
   transition: transform 0.3s ease;
