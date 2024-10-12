@@ -2,12 +2,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 
-import Projetos from "./Projetos"
-import Home from "../PaginaInicial";
-import SobreMim from "./SobreMim";
-import Cursos from "./Cursos";
-import Cardes from "./Globo";
-import Contato from "./Contato";
+import Projetos from "./components/Projetos"
+import Home from "./PaginaInicial";
+import SobreMim from "./components/SobreMim";
+import Cursos from "./components/Cursos";
+import Contato from "./components/Contato";
 
 function AppRutes() {
     return (

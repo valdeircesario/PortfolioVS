@@ -1,4 +1,4 @@
-import AppRutes from "./components/Rutes";
+import AppRutes from "./Rutes";
 
 
 
