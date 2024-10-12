@@ -79,6 +79,7 @@
     }
 
     .terminal {
+        margin-top: 30px;
         order: 2; /* Garante que terminal seja o segundo */
     }
 

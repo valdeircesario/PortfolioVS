@@ -54,8 +54,8 @@ function Projetos() {
 
 
     {
-  imgSrc: "/src/assets/Captura de Tela (77).png",
-  coverSrc: "/src/assets/Captura de Tela (76).png",
+  imgSrc: "/public/assets/Captura de Tela (77).png",
+  coverSrc: "/public/assets/Captura de Tela (76).png",
   altText: "Descrição do Sistema de Triagem de Pacientes",
   title: "Sistema de Triagem de Pacientes",
   description: `Desenvolvi um sistema web destinado a otimizar o agendamento em unidades de saúde. O sistema classifica pacientes por prioridade, garantindo atendimento rápido para os casos mais urgentes.`,
@@ -76,8 +76,8 @@ function Projetos() {
 },
 
     {
-      imgSrc: "/src/assets/Captura de Tela (79).png",
-      coverSrc: "/src/assets/Captura de Tela (80).png",
+      imgSrc: "/public/assets/Captura de Tela (79).png",
+      coverSrc: "/public/assets/Captura de Tela (80).png",
       altText: "Descrição da imagem 1",
       title: "Azalleia: Loja Online de Moda Feminina",
       description: `Desenvolvi o site da Azalleia como um projeto pessoal para aprimorar minhas habilidades em React. Este e-commerce intuitivo oferece uma experiência de compra completa, permitindo que os usuários naveguem por um catálogo extenso, apliquem filtros personalizados e façam compras diretamente pelo WhatsApp.`,
@@ -103,8 +103,8 @@ function Projetos() {
 
     {
     
-      imgSrc: "/src/assets/Captura de Tela (85).png",
-      coverSrc: "/src/assets/Captura de Tela (86).png",
+      imgSrc: "/public/assets/Captura de Tela (85).png",
+      coverSrc: "/public/assets/Captura de Tela (86).png",
       altText: "Descrição da imagem 2",
       title: "AppComparaTudo: Ferramenta para Decisões de Compra Inteligentes",
       description: `O AppComparaTudo é um aplicativo inovador que simplifica o processo de tomada 
@@ -128,8 +128,8 @@ em critérios personalizados, garantindo a escolha mais adequada para suas neces
 
 
     {
-  imgSrc: "/src/assets/portfolio01.jfif",
-  coverSrc: "/src/assets/portfolio02.jfif",
+  imgSrc: "/public/assets/portfolio01.jfif",
+  coverSrc: "/public/assets/portfolio02.jfif",
   altText: "Descrição da imagem 1",
   title: "Primeiro Portfólio com HTML e CSS",
   description: `Desenvolvi meu portfólio pessoal utilizando HTML e CSS, demonstrando habilidades em criar designs modernos e responsivos. O projeto foi construído com o uso de Grid e Flexbox, garantindo layouts flexíveis que se adaptam a diferentes dispositivos. Animações personalizadas em CSS3 foram implementadas para enriquecer a experiência visual e torná-la mais interativa.`,
