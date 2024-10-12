@@ -205,7 +205,7 @@ const Progreso = () => {
 const StyledWrapper = styled.div`
 h2{
 text-align: center;
-font-size:2rem;
+font-size:1.2rem;
 color:#d0cffc;
 margin-bottom: 40px;
 }

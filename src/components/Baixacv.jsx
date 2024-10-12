@@ -5,8 +5,8 @@ import Styles from './Baixacv.module.css'; // Importando o CSS
 const DownloadButton = () => {
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = '/src/curriculoo/Currículopessoalvaldeir.pdf'; // Altere o caminho para o seu arquivo PDF
-        link.download = '/src/curriculoo/Currículopessoalvaldeir.pdf'; // Nome do arquivo ao ser baixado
+        link.href = '/curriculoo/Currículopessoalvaldeir.pdf'; // Altere o caminho para o seu arquivo PDF
+        link.download = '/curriculoo/Currículopessoalvaldeir.pdf'; // Nome do arquivo ao ser baixado
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
