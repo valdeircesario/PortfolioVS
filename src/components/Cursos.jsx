@@ -83,8 +83,8 @@ function Cursos(){
             
             
         <Addcursos
-            coverSrc="/public/cursos/Cert_Power BI.jpg"
-            imgSrc="/public/cursos/Cert_Power BI.jpg"
+            coverSrc="cursos/Cert_Power BI.jpg"
+            imgSrc="cursos/Cert_Power BI.jpg"
             altText="POWER BI"
             title="POWER BI"
             description="Com o curso de Análise de Dados utilizando o Power BI, adquiri habilidades sólidas em transformar dados em insights acionáveis, capacitando-me para criar visualizações impactantes, relatórios dinâmicos e painéis interativos que impulsionam a tomada de decisões estratégicas baseadas em dados."
