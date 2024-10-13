@@ -102,9 +102,15 @@
     .aminent {
         display: none; 
     }
+    .pc{
+        opacity:1;
+        margin-left:-20px;
+    }
 
-    .pc, .terminal {
+    .terminal {
         opacity: 1; 
+        margin-left:-10px;
+        width:65%;
     }
 }
 
@@ -124,18 +130,21 @@
     }
 
     .terminal {
-        width: 80%; 
-        margin: 0 20px; 
+        margin-left: -25px;
+        width: 50%;
+    
+         
     }
     .pc{
-      margin-left: -60px;
+      margin-left: -100px;
       margin-top: -50px;
     }
 }
 
 @media (max-width: 480px) {
     .titulo {
-        padding: 15px; 
+        padding: 5px;
+        margin: 0; 
     }
     .terminal{
         width: 80%;

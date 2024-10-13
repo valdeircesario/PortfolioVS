@@ -14,7 +14,7 @@ const Loader = () => {
               <div className="display">
                 <div className="shade" />
               </div>
-              <span>Desenvolvido</span>
+              <span>Developer</span>
             </div>
             <title>Valdeir</title>
           </div>
@@ -206,7 +206,7 @@ transform: scale(2);
   width: 130px;
   height: 74px;
   margin: 10px;
-  background-image: url('/assets/Captura de Tela (90).png');
+  background-image: url('/img/perfil.jpeg');
   background-size: 100% 100%;
   border-radius: 1px;
   position: relative;
