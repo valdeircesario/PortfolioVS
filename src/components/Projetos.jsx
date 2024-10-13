@@ -17,7 +17,7 @@ import Loader from './Pc';
 
 
 function Projetos() {
-  const projRefs = useRef([]); // Array de referências para múltiplos projetos
+  const projRefs = useRef([]); 
   const [visibleItems, setVisibleItems] = useState([]);
 
   useEffect(() => {
@@ -27,9 +27,9 @@ function Projetos() {
           if (entry.isIntersecting) {
             const index = projRefs.current.indexOf(entry.target);
             if (!visibleItems.includes(index)) {
-              setVisibleItems((prev) => [...prev, index]); // Adiciona o índice ao estado
+              setVisibleItems((prev) => [...prev, index]); 
             }
-            observer.unobserve(entry.target); // Para não observar mais após estar visível
+            observer.unobserve(entry.target); 
           }
         });
       },
@@ -184,7 +184,7 @@ em critérios personalizados, garantindo a escolha mais adequada para suas neces
         <>
         <div
     key={index}
-    className={`${Styles.proj01} ${index === 0 || visibleItems.includes(index) ? Styles.visible : ""}`} // Verifica se o índice é 0
+    className={`${Styles.proj01} ${index === 0 || visibleItems.includes(index) ? Styles.visible : ""}`}
     ref={(el) => (projRefs.current[index] = el)}
   >
           <div className={Styles.element}>

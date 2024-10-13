@@ -11,11 +11,11 @@ const Cubooo = () => {
           <div className="face front">
             <span>Ola</span>
           </div>
-          <div className="face back">Desevolverdor</div>
-          <div className="face right">Mundo</div>
-          <div className="face left">..Eu Sou:)</div>
+          <div className="face back">Developer</div>
+          <div className="face right">World</div>
+          <div className="face left">..I Am :)</div>
           <div className="face top">Valdeir</div>
-          <div className="face bottom">Eu Sou</div>
+          <div className="face bottom">I Am a</div>
         </div>
       </div>
     </StyledWrapper>

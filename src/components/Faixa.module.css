@@ -1,4 +1,4 @@
-/* From Uiverse.io by Smit-Prajapati */ 
+ 
 .loader {
     margin-bottom: 0%;
     margin-top: 20px;
@@ -41,5 +41,6 @@
   }
   to {
     left: 100%;
+    
   }
 }

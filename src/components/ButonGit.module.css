@@ -63,24 +63,24 @@ background-color: rgba(0, 0, 0, 0.4);
 
 @media (max-width: 1268px) {
     .btn, .github {
-        width: 53%; /* Aumenta a largura em telas menores */
+        width: 53%; 
       
-        padding: 0.5rem 0.75rem; /* Ajusta o padding */
+        padding: 0.5rem 0.75rem; 
     }
 }
 
 @media (max-width: 1000px) {
     .btn, .github {
-        width: 40%; /* Largura total em telas muito pequenas */
+        width: 40%; 
         
-        padding: 0.5rem; /* Ajusta o padding para telas pequenas */
+        padding: 0.5rem; 
     }
 }
 @media (max-width: 600px) {
     .btn, .github {
-        width: 60%; /* Largura total em telas muito pequenas */
+        width: 60%; 
         
-        padding: 0.5rem; /* Ajusta o padding para telas pequenas */
+        padding: 0.5rem; 
     }
 }
 

@@ -206,7 +206,7 @@ transform: scale(2);
   width: 130px;
   height: 74px;
   margin: 10px;
-  background-color: #000;
+  background-image: url('/public/assets/Captura de Tela (90).png');
   background-size: 100% 100%;
   border-radius: 1px;
   position: relative;

@@ -69,7 +69,7 @@ const Terminal = () => {
             <div className="body">
               <pre className="pre">
                 <code>-&nbsp;</code>
-                <code>npx&nbsp;</code>
+                <code>npm&nbsp;</code>
                 <code className="cmd" data-cmd="create-react-app@latest" />
               </pre>
             </div>

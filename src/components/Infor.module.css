@@ -13,13 +13,13 @@
     display: flex;
     justify-content: center; 
     align-items: center;    
-    height: auto; /* Ajusta para auto para responsividade */
-    margin: 100px 0; /* Espaçamento superior e inferior */
+    height: auto; 
+    margin: 100px 0; 
 }
 
 .foto {
     flex: 1;
-    margin: 20px; /* Margem ao redor da foto */
+    margin: 20px; 
     text-align: center;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .foto p {
-    margin: 10px 0; /* Margens ajustadas */
+    margin: 10px 0; 
     font-size: 1.3rem;
 }
 
@@ -42,8 +42,8 @@
 }
 
 .links a {
-    width: 80%; /* Largura ajustada para melhor responsividade */
-    max-width: 300px; /* Limita a largura máxima */
+    width: 80%; 
+    max-width: 300px; 
     display: inline-block;
     background-color: #676464;
     margin: 8px 0;
@@ -70,41 +70,41 @@
     height: 30px; 
 }
 
-/* Consultas de Mídia para Responsividade */
+
 @media (max-width: 768px) {
     .sobre {
-        flex-direction: column; /* Empilha os itens em telas menores */
-        align-items: center; /* Centraliza os itens */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .foto {
-        margin: 10px 0; /* Margens ajustadas */
+        margin: 10px 0; 
     }
 
     .foto h1 {
-        font-size: 1.8rem; /* Reduz o tamanho do texto para telas menores */
+        font-size: 1.8rem; 
     }
 
     .foto p {
-        font-size: 1.1rem; /* Reduz o tamanho do texto */
+        font-size: 1.1rem; 
     }
 
     .links a {
-        width: 90%; /* Aumenta a largura em telas menores */
-        font-size: 1.4rem; /* Ajusta o tamanho da fonte dos links */
+        width: 90%; 
+        font-size: 1.4rem; 
     }
 }
 
 @media (max-width: 480px) {
     .foto h1 {
-        font-size: 1.5rem; /* Tamanho ainda menor para telas muito pequenas */
+        font-size: 1.5rem; 
     }
 
     .foto p {
-        font-size: 1rem; /* Tamanho ainda menor para telas muito pequenas */
+        font-size: 1rem; 
     }
 
     .links a {
-        font-size: 1.2rem; /* Ajusta o tamanho da fonte dos links */
+        font-size: 1.2rem; 
     }
 }
