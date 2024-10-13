@@ -22,7 +22,7 @@ const Formulario = () => {
 
     emailjs.send('service_ez3wgiv', 'template_3kn6b7g', formData, 'Sa_m3nddVb0ZQHxMQ')
       .then((response) => {
-        console.log('Mensagem enviada!', response.status, response.text);
+        alert('Mensagem enviada com sucesso!');
         
         
         setFormData({
@@ -32,14 +32,15 @@ const Formulario = () => {
           mensagem: ""
         });
       }, (err) => {
-        console.error('Erro ao enviar mensagem:', err);
+      
+        alert('Erro ao enviar a mensagem. Tente novamente.');
       });
   };
 
   return (
     <div className={Styles.formulario}>
     <form className={Styles.form} onSubmit={handleSubmit}>
-      <h2>"Envie Seu Feedback"</h2>
+      <h2>Envie Seu Feedback</h2>
       <div className={Styles.container}>
         <div className={Styles.inputContainer}>
           <input
