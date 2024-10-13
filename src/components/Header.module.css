@@ -156,19 +156,11 @@ transform: scale(1.4);
 
   
 }
-@media (min-width:350px) {
-  .hamburger {
-    display: flex;
-    position: absolute;
-    top: 0;
-    margin-right: 40px;
-    transform: translateX(0);
-    
-  }
+
 
   
 
   
 
   
-}
+
