@@ -70,7 +70,7 @@ const Terminal = () => {
               <pre className="pre">
                 <code>-&nbsp;</code>
                 <code>npm&nbsp;</code>
-                <code className="cmd" data-cmd="create-react-app@latest" />
+                <code className="cmd" data-cmd="create-react-valdeir" />
               </pre>
             </div>
           </div>
