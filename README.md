@@ -17,7 +17,11 @@ Este projeto é um reflexo do meu crescimento como desenvolvedor, evidenciando u
 
 Veja abaixo algumas capturas de tela do meu portfólio:
 
+<<<<<<< HEAD
 <div style="display: flex; gap:20px; align-items: center; justify-content: center;">
+=======
+<div style="display: flex; align-items: center; justify-content: center;">
+>>>>>>> 14907707cb5468536c08454b43c492d907a23327
     <div style="margin-bottom: 20px;">
         <img src="https://github.com/user-attachments/assets/46be5d75-c67c-4bcb-8147-3014bbd72ef2" alt="Página Inicial" width="200" height="350">
         <p><em>Figura 1: Página inicial do portfólio.</em></p>
@@ -48,7 +52,11 @@ Veja abaixo algumas capturas de tela do meu portfólio:
 ## Tecnologias Utilizadas
 
 O projeto foi desenvolvido com as seguintes tecnologias:
+<<<<<<< HEAD
 <div style="display:flex">
+=======
+<div style="display: inline_block">
+>>>>>>> 14907707cb5468536c08454b43c492d907a23327
   <img align="center" alt="HTML" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="CSS" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="JavaScript" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
