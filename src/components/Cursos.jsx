@@ -147,6 +147,58 @@ function Cursos(){
             
         
     </div>
+
+    <div  className={`${Styles.slide} ${Styles.green}`}>
+        <div className={Styles.component}>
+            
+        <Addcursos
+            coverSrc="/cursos/cisco.png"
+            imgSrc="/cursos/cisco.png"
+            altText="MARATONA CISCO"
+            title="MARATONA CISCO"
+            description="Concluí o curso de Endpoint Security da Cisco, onde adquiri habilidades essenciais para identificar e resolver desafios de segurança em redes. O curso me capacitou a analisar dados de segurança, recomendar práticas eficazes e avaliar a eficácia das medidas de proteção. Estou comprometido em aplicar esse conhecimento para fortalecer a segurança da informação em ambientes corporativos."
+        />
+            
+        <Addcursos
+            coverSrc="/cursos/cisco2.png"
+            imgSrc="/cursos/cisco2.png"
+            altText="CIBERSEGURANÇA DA CISCO"
+            title="CIBERSEGURANÇA DA CISCO"
+            description="Concluí o curso de Introdução à Cibersegurança da Cisco, onde aprendi sobre as implicações das políticas de segurança e as diversas ameaças cibernéticas. O curso me capacitou a identificar vulnerabilidades e a aplicar estratégias para mitigar riscos. Estou preparado para contribuir na proteção de sistemas e dados em ambientes digitais."
+        />
+            
+        <Addcursos
+            coverSrc="/cursos/reprogramese.png"
+            imgSrc="/cursos/reprogramese.png"
+            altText="DESENVOLVIMENTO WEB"
+            title="DESENVOLVIMENTO WEB"
+            description="Concluí o curso de Programação de Aplicativos Front-End, onde desenvolvi habilidades em linguagem de programação e design de interfaces. O curso me capacitou a criar aplicações web interativas e responsivas, com foco na experiência do usuário. Estou pronto para aplicar esse conhecimento em projetos práticos e inovadores."
+        />
+            
+        <Addcursos
+            coverSrc="/cursos/sof skill.png"
+            imgSrc="/cursos/sof skill.png"
+            altText="SOFT SKILLS"
+            title="SOFT SKILLS"
+            description="Concluí o curso de Soft Skills, onde aprendi sobre competências sociais essenciais para o ambiente de trabalho. O treinamento abordou temas como comunicação eficaz, trabalho em equipe e resolução de conflitos. Estou preparado para aplicar essas habilidades em interações profissionais, contribuindo para um ambiente colaborativo e produtivo."
+        />
+
+        <Addcursos
+            coverSrc="/cursos/banco de dados.png"
+            imgSrc="/cursos/banco de dados.png"
+            altText="BANCO DE DADO"
+            title="BANCO DE DADO"
+            description="Concluí o curso de Banco de Dados, onde adquiri conhecimentos sobre a estrutura, gerenciamento e manipulação de dados em sistemas. O treinamento abrangeu conceitos fundamentais, como modelagem de dados, SQL e otimização de consultas. Estou preparado para aplicar essas habilidades em projetos que envolvem gerenciamento eficiente de informações e suporte à tomada de decisões.
+
+"
+        />
+
+
+        </div>
+            
+            
+        
+    </div>
 </div>
 <Faixa/>
 <Rodape/>
