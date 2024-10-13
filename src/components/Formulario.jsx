@@ -39,7 +39,7 @@ const Formulario = () => {
   return (
     <div className={Styles.formulario}>
     <form className={Styles.form} onSubmit={handleSubmit}>
-      <h2>Entre em Contato Comigo:</h2>
+      <h2>"Envie Seu Feedback"</h2>
       <div className={Styles.container}>
         <div className={Styles.inputContainer}>
           <input
