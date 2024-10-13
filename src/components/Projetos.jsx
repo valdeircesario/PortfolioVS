@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable react/jsx-no-undef */
 
@@ -92,8 +93,12 @@ function Projetos() {
         "Experiência do usuário aprimorada com interface intuitiva e design moderno.",
         "Integração com WhatsApp para facilitar a comunicação e agilizar compras.",
         "Projeto desenvolvido do zero, desde a concepção até a implementação."
+        
       ],
-      link: "https://github.com/valdeircesario/Azalleia_Moda_Feminina"
+  
+      link: "https://github.com/valdeircesario/Azalleia_Moda_Feminina",
+      links:"https://azalleiamodafeminina.netlify.app/"
+      
     },
     
 
@@ -116,7 +121,7 @@ em critérios personalizados, garantindo a escolha mais adequada para suas neces
         "Comparação: Compare milhares de produtos e veja os resultados de forma clara e objetiva.",
         "Decisão informada: Economize tempo e dinheiro, tomando decisões de compra mais inteligentes."
       ],
-      technologies: " Java, PostgreSQL, interface swuig",
+      technologies: " Java, PostgreSQL, interface Swing",
       results: [
         "Economia de tempo: Encontre rapidamente os melhores produtos.",
         "Experiência personalizada: Adapte o app às suas necessidades.",
@@ -124,6 +129,7 @@ em critérios personalizados, garantindo a escolha mais adequada para suas neces
       ],
       skills: "PostgreSQL, design intuitivo",
       link: "https://github.com/valdeircesario/AppComparaTudo"
+      
     },
 
 
@@ -145,7 +151,8 @@ em critérios personalizados, garantindo a escolha mais adequada para suas neces
     "Experiência enriquecida através de animações interativas.",
     "Desenvolvimento focado em acessibilidade e usabilidade."
   ],
-  link: "https://github.com/valdeircesario/MeuPortfolio-html"
+  link: "https://github.com/valdeircesario/MeuPortfolio-html",
+  links:"https://meu-portfolio-html.vercel.app/"
 }
    
   ];
@@ -191,6 +198,7 @@ em critérios personalizados, garantindo a escolha mais adequada para suas neces
           <div className={Styles.text}>
             <h2>{project.title}</h2>
             <p>{project.description}</p>
+            
 
             <strong>Destaques:</strong>
             <ul>
@@ -208,14 +216,20 @@ em critérios personalizados, garantindo a escolha mais adequada para suas neces
                 <li key={idx}>{result}</li>
               ))}
             </ul>
+            
+            
 
             {project.skills && (
               <>
                 <strong>Habilidades Desenvolvidas:</strong>
-                <p>{project.skills}</p>
-                
+                <p>{project.skills}</p> 
               </>
             )}
+            {project.links && project.links.length > 0 && (
+          <a href={project.links} target="_blank" rel="noopener noreferrer">
+            Acesse aqui meu projeto online
+          </a>
+        )}
           </div>
           
         

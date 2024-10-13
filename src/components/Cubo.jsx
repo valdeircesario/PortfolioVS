@@ -9,7 +9,7 @@ function Cubo(){
     <div className={Styles.frente}>Hello World!
         
     </div>
-    <div className={Styles.back}>Desenvolvimento!
+    <div className={Styles.back}>Developer!
         
         
     </div>
