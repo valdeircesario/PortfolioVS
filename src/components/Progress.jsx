@@ -210,7 +210,7 @@ color:#d0cffc;
 margin-bottom: 40px;
 }
 .container {
-    margin: 35px 15%;
+    margin: 45px 20%;
     width: 60%;
     box-shadow: 0 8px 8px 8px rgba(0, 0, 0, 0.9);
     padding: 10px 20px;

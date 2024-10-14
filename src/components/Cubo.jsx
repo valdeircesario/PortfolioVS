@@ -10,21 +10,14 @@ function Cubo(){
         
     </div>
     <div className={Styles.back}>Developer!
-        
-        
     </div>
-    <div className={Styles.right}>DevOps!
-       
+
+    <div className={Styles.right}>DevOps!</div>
+    <div className={Styles.left}>full-stack!</div>
+    <div className={Styles.top}>Soft_Skills
     </div>
-    <div className={Styles.left}>full-stack!
-        
-    </div>
-    <div className={Styles.top}>valdeir
-        
-    </div>
-    <div className={Styles.bottom}>Soft Skills
-        
-    </div>
+    
+    <div className={Styles.bottom}>Valdeir</div>
   </div>
 </div>
 

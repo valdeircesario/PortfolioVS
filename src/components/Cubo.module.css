@@ -14,10 +14,7 @@
  
   transform: scale(1.5);
 }
-img{
-    width: 200px;
-    height: 200px;
-}
+
 
 .cubo {
   position: relative;
@@ -46,7 +43,7 @@ img{
   position: absolute;
   width: 200px;
   height: 200px;
-   color: rgb(11, 207, 242);
+  color: rgb(11, 207, 242);
   font-size: 18px;
   text-align: center;
   line-height: 200px;
@@ -60,7 +57,7 @@ img{
   position: absolute;
   width: 200px;
   height: 200px;
-   color: rgb(11, 207, 242);
+  color: rgb(11, 207, 242);
   font-size: 18px;
   text-align: center;
   line-height: 200px;
@@ -74,7 +71,7 @@ img{
   position: absolute;
   width: 200px;
   height: 200px;
-   color: rgb(11, 207, 242);
+  color: rgb(11, 207, 242);
   font-size: 18px;
   text-align: center;
   line-height: 200px;
@@ -88,7 +85,7 @@ img{
   position: absolute;
   width: 200px;
   height: 200px;
-   color: rgb(11, 207, 242);
+  color: rgb(11, 207, 242);
   font-size: 18px;
   text-align: center;
   line-height: 200px;
