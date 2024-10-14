@@ -46,7 +46,7 @@ const Terminal = () => {
                 >
                   <path d="M7 15L10 12L7 9M13 15H17M7.8 21H16.2C17.8802 21 18.7202 21 19.362 20.673C19.9265 20.3854 20.3854 19.9265 20.673 19.362C21 18.7202 21 17.8802 21 16.2V7.8C21 6.11984 21 5.27976 20.673 4.63803C20.3854 4.07354 19.9265 3.6146 19.362 3.32698C18.7202 3 17.8802 3 16.2 3H7.8C6.11984 3 5.27976 3 4.63803 3.32698C4.07354 3.6146 3.6146 4.07354 3.32698 4.63803C3 5.27976 3 6.11984 3 7.8V16.2C3 17.8802 3 18.7202 3.32698 19.362C3.6146 19.9265 4.07354 20.3854 4.63803 20.673C5.27976 21 6.11984 21 7.8 21Z" />
                 </svg>
-                Terminal
+                 Meu-Terminal
               </p>
               <button className="copy_toggle" tabIndex={-1} type="button">
                 <svg
@@ -82,12 +82,12 @@ const Terminal = () => {
 
 const StyledWrapper = styled.div`
   .card {
-  margin-top:100px;
+  margin-top:120px;
     
     padding: 1rem;
     border: 1px solid #c5c5c5;
     border-radius: 12px;
-    min-width: 344px;
+    min-width: 334px;
     transform: translateX(100%); /* Começa fora da tela à direita */
     opacity: 0; /* Começa invisível */
     transition: transform 2.2s ease, opacity 2.2s ease;
@@ -143,13 +143,13 @@ const StyledWrapper = styled.div`
   color: #8e8e8e;
 }
 .title > svg {
-  height: 18px;
-  width: 18px;
+  height: 20px;
+  width: 20px;
   margin-top: 2px;
   color: #006adc;
 }
 .copy_toggle {
-width: 150px;
+width: 120px;
   display: flex;
   align-items: center;
   justify-content: center;

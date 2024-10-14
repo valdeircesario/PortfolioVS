@@ -9,11 +9,14 @@
 }
 
 .card {
-    margin-top: -100px;
+    margin-top: -50px;
     
     display: flex;
     flex-direction: column; 
 }
+
+
+
 
 .slide {
     
@@ -29,9 +32,10 @@ marquee {
     font-size: 2.6rem;
     width: 50%;
     text-align: center;
-    margin: 100px 0;
-    color: rgb(248, 246, 246);
+    margin: 100px 10;
+
 }
+
 
 .component {
     display: flex;

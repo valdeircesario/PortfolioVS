@@ -47,14 +47,13 @@
   display: flex;
   gap: 1rem;
   list-style: none;
-  margin-right: 65px;
+  margin-right: 30px;
 }
 
 
 
 .navLinks a {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color:#10eef5;
   display: grid;
   font-size: 1.5rem;
   place-content: center;
@@ -119,11 +118,11 @@ transform: scale(1.4);
   }
 
   .navLinks.open {
-    align-items:flex-end;
+    align-items:self-end;
     height:auto;
-    width: 30%;
+    width: 20%;
     display: flex;
-    gap: 20px;
+    gap: 10px;
     margin-top: 0;
     
   }

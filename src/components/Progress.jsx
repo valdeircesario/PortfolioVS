@@ -206,7 +206,7 @@ const StyledWrapper = styled.div`
 h2{
 text-align: center;
 font-size:1.2rem;
-color:#d0cffc;
+
 margin-bottom: 40px;
 }
 .container {
@@ -238,7 +238,6 @@ margin-bottom: 40px;
   display: block;
   font-size: 14px;
   font-weight: 600;
-  color: #10eef5;
 }
 
 .skill-box .skill-bar {

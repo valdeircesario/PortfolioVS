@@ -120,11 +120,11 @@ const StyledWrapper = styled.div`
   top: 50%;
   margin: 25px 0 0 28px;
   perspective: 500px;
-  transition: transform 0.5s ease;
+  transition: transform 0.9s ease;
 }
 
 .macbook:hover{
-transform: scale(2);
+transform: scale(1.4);
  
 }
 

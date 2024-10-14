@@ -11,12 +11,12 @@
     margin-left: 100px;
 }
 .text a{
-    color: #f6f8f6;
+    color: #6c6af4;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 1.1rem;
 }
 .text a:hover{
-    color: #04c7ce;
+    color: #405bf7;
 }
 
 .aminent {
@@ -55,13 +55,11 @@
 
 .text li, .text p {
     font-size: 1.2rem;
-    color: #10eef5;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .text h2, .text strong {
     font-size: 1.5rem;
-    color: #d0cffc;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 

@@ -12,13 +12,19 @@ function Cursos(){
         
  <>
  <Header/>
- <DownloadButton/>              
+               
 <div className={`${Styles.scroll} ${Styles.snap} ${Styles.card}`}>
+    <div className={Styles.VC}>
+            <DownloadButton/>
+        </div>
+    
     
     
     
     
     <div className={`${Styles.slide} ${Styles.red}`}>
+        
+        
         
         
         
@@ -30,6 +36,7 @@ function Cursos(){
         <div className={Styles.component}>
             <Cubooo/>
             <Faixa/>
+            
             
             
             <Addcursos 

@@ -61,7 +61,6 @@ const StyledWrapper = styled.div`
   font-size: 18px;
   text-align: center;
   line-height: 200px;
-  background: #000000cc;
   border: 2px solid;
   border-image: var(--french);
 }
