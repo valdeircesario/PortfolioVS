@@ -29,12 +29,14 @@
 }
 
 .proj01 {
-    width: 100%;
+    
+    width: 95%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
     margin-left: 40px;
+    margin-right: 100px;
     transform: translateY(100%);
     opacity: 0;
     transition: transform 0.8s ease, opacity 0.8s ease;

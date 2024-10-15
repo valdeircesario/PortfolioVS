@@ -32,7 +32,7 @@
 
 .siteName {
   font-family: Georgia, 'Times New Roman', Times, serif;
-   color:#10eef5;
+  
   text-decoration: none;
   font-size: 2.5rem;
   transition: transform 0.5s ease; 
@@ -72,7 +72,7 @@ transform: scale(1.4);
   position: absolute;
   width: 100%;
   height: 2px;
-  background: #10eef5;
+  background:var(--aminacao-color);
   transform: scaleX(0);
   transition: all 0.5s ease;
   bottom: 0;
@@ -95,7 +95,7 @@ transform: scale(1.4);
     
   width: 80px;
   height: 5px;
-  background-color:#10eef5;
+  background:var(--aminacao-color);
   margin: 5px 0px;
 }
 

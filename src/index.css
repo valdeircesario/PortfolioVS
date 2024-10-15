@@ -1,5 +1,7 @@
 
-
+:root{
+    --aminacao-color:#10eef5;
+}
 
 body {
     margin: 0;
