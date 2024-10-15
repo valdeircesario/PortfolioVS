@@ -11,7 +11,7 @@ function sobre(){
             <div className={Styles.foto}>
                 
                 <h1>Valdeir C Silva</h1>
-                <p>Desenvolvedor Web || Banco de Dados || Java</p>
+                <p>Developer Web || Banco de Dado || Java</p>
                 <div className={Styles.links}>
                     <a href="https://github.com/valdeircesario"><img src="https://cdn.icon-icons.com/icons2/673/PNG/512/github_icon-icons.com_60477.png" alt='git'/>GitHub</a>
                     <a href="https://linkedin.com/in/valdeircesario2023"><img src="https://cdn.icon-icons.com/icons2/306/PNG/512/Linkedin-Icon_34068.png" alt='linkedin'/>Linkedin</a>
