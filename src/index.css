@@ -1,6 +1,11 @@
 
 :root{
     --aminacao-color:#10eef5;
+    --fundo-color:#F9FBE7;
+    --text-color:#333333;
+    --destaque-color:#FF9800;
+    --secundaria-color: #8BC34A;
+    --primaria-color:#4CAF50;
 }
 
 body {
@@ -28,7 +33,7 @@ a {
 }
 
 marquee{
-    color: #10eef5;
+    color: antiquewhite;
 
 }
 strong{
