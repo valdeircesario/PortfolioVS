@@ -2,5 +2,11 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    
+
+  bottom: 0;
+  width: 100%;
+
+  text-align: center;
 }
 

@@ -3,6 +3,7 @@ import React from 'react';
 
 import Styles from "./SobreMin.module.css";
 import Header from "./Header"
+import Progreso from './Progress';
 import Sobremim from "./Sobre"
 import Rodape from './Footer';
 import Cubo from './Cubo';
@@ -18,7 +19,10 @@ function SobreMim(){
         <Cubo/>
         <Sobremim/>
         <Faixa/>
+        <Progreso/>
+        <Faixa/>
         <Rodape/>
+        
         </>
 
     )

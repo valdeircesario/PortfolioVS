@@ -8,7 +8,6 @@ import Faixa from './Faixa';
 import Rodape from './Footer';
 import Terminal from './Terminal';
 import Header from './Header';
-import Progreso from './Progress';
 import Styles from './Projetos.module.css';
 import AnimatedTitle from './TituloAmimacao';
 import { useEffect, useRef, useState } from 'react';
@@ -66,7 +65,18 @@ function Projetos() {
     "Agendamento automático e personalizado.",
     "Notificações para pacientes e profissionais de saúde."
   ],
-  technologies: "Angular, Quarkus, Java, PostgreSQL, Docker",
+   technologies: [
+      { icon: "https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" },
+      { icon: "https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" },
+      { icon: "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" },
+      { icon: "https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" },
+      { icon: "https://img.shields.io/badge/Quarkus-%23000000.svg?style=for-the-badge&logo=quarkus&logoColor=white" },
+      { icon: "https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white" },
+      { icon: "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" },
+      { icon: "https://img.shields.io/badge/IntelliJ-%23000000.svg?style=for-the-badge&logo=intellijidea&logoColor=white" },
+      { icon: "https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" },
+      { icon:"https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"}
+    ],
   results: [
     "Redução significativa no tempo de espera.",
     "Aumento na satisfação dos pacientes.",
@@ -88,7 +98,17 @@ function Projetos() {
         "Compra direta pelo WhatsApp: Direciona o usuário para atendimento personalizado.",
         "Responsividade: Design adaptável para desktop, tablets e smartphones."
       ],
-      technologies: "React, JavaScript, CSS, Visual Studio Code",
+      technologies: [
+      { icon: "https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" },
+      { icon: "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" },
+      { icon: "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB " },
+      { icon: "https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7 " },
+      { icon: " https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" },
+      { icon: "https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white " },
+      { icon: "https://img.shields.io/badge/VSCode-%23007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white " },
+      { icon:"https://img.shields.io/badge/CSS-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"}
+    ],
+      
       results: [
         "Experiência do usuário aprimorada com interface intuitiva e design moderno.",
         "Integração com WhatsApp para facilitar a comunicação e agilizar compras.",
@@ -97,7 +117,8 @@ function Projetos() {
       ],
   
       link: "https://github.com/valdeircesario/Azalleia_Moda_Feminina",
-      links:"https://azalleiamodafeminina.netlify.app/"
+      links:"https://azalleiamodafeminina.netlify.app/",
+      
       
     },
     
@@ -121,7 +142,16 @@ em critérios personalizados, garantindo a escolha mais adequada para suas neces
         "Comparação: Compare milhares de produtos e veja os resultados de forma clara e objetiva.",
         "Decisão informada: Economize tempo e dinheiro, tomando decisões de compra mais inteligentes."
       ],
-      technologies: " Java, PostgreSQL, interface Swing",
+      technologies: [
+      
+      { icon: "https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" },
+      { icon: "https://img.shields.io/badge/Swing-6DB33F?style=for-the-badge&logo=java&logoColor=white" },
+      { icon: "https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" },
+      { icon: "https://img.shields.io/badge/pgAdmin-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" },
+      { icon: "https://img.shields.io/badge/IntelliJ-%23000000.svg?style=for-the-badge&logo=intellijidea&logoColor=white" },
+      { icon: "https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" }
+    ],
+      
       results: [
         "Economia de tempo: Encontre rapidamente os melhores produtos.",
         "Experiência personalizada: Adapte o app às suas necessidades.",
@@ -145,7 +175,15 @@ em critérios personalizados, garantindo a escolha mais adequada para suas neces
     "Animações personalizadas com CSS3.",
     "Foco em acessibilidade, garantindo que o conteúdo seja acessível a todos os usuários."
   ],
-  technologies: "HTML, CSS, JavaScript, Grid, Flexbox, CSS3",
+  technologies: [
+      
+      { icon: "https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" },
+      { icon: " https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" },
+      { icon: "https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white " },
+      { icon: "https://img.shields.io/badge/VSCode-%23007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white " },
+      { icon:"https://img.shields.io/badge/CSS-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"}
+    ],
+  
   results: [
     "Criação de designs modernos e responsivos.",
     "Experiência enriquecida através de animações interativas.",
@@ -208,7 +246,16 @@ em critérios personalizados, garantindo a escolha mais adequada para suas neces
             </ul>
 
             <strong>Tecnologias:</strong>
-            <p>{project.technologies}</p>
+            {project.technologies && (
+  <div className={Styles.icon}>
+    {project.technologies.map((tech, idx) => (
+      <img key={idx} src={tech.icon} />
+    ))}
+  </div>
+)}
+
+            
+              
 
             <strong>Resultados:</strong>
             <ul>
@@ -234,14 +281,14 @@ em critérios personalizados, garantindo a escolha mais adequada para suas neces
           
         
         </div>
-        <Faixa/>
+        
         </>
         
       ))}
 
       
-      <Progreso />
-      <hr />
+      
+      
       <Rodape />
     </div>
   );
