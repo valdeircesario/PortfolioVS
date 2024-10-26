@@ -20,7 +20,6 @@ function SobreMim(){
         <Sobremim/>
         <Faixa/>
         <Progreso/>
-        <Faixa/>
         <Rodape/>
         
         </>

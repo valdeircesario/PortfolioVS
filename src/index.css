@@ -14,7 +14,8 @@ body {
     background: linear-gradient(to bottom, #777676, #181616, #767577); 
     color: #D3D3D3;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    line-height: 1 ; 
+    line-height: 1 ;
+    margin-bottom: 20px; 
 }
 
 h1, h3,h4 {

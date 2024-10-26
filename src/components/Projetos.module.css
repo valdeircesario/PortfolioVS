@@ -67,17 +67,17 @@
 .icon {
     margin-top: 10px;
     display: flex;
-    flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha */
-    justify-content: center; /* Centraliza os itens */
-    gap: 15px; /* Espaçamento entre os itens */
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 5px;
     margin-bottom: 10px;
    border: none;
 
 }
 
 .icon img {
-    width: 110px; /* Faz com que a imagem não ultrapasse a largura do contêiner */
-    height:30px; /* Mantém a proporção da imagem */
+    width: 90px; 
+    height:28px;
     border-radius: 0; 
    
 }

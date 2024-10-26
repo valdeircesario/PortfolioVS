@@ -101,6 +101,7 @@ Meu portfólio apresenta meus projetos, experiências e contatos, refletindo meu
         <img src="https://img.shields.io/badge/IntelliJ-%23000000.svg?style=for-the-badge&logo=intellijidea&logoColor=white" alt="IntelliJ" />
         <img src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7" />
         <img src="https://img.shields.io/badge/pgAdmin-%233B4D8D.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="pgAdmin" />
+        <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="typescript" />
       </div>
     </div>
   );
