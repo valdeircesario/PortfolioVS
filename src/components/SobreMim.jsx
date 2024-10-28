@@ -13,6 +13,7 @@ import DownloadButton from './Baixacv';
 function SobreMim(){
     return(
         <>
+        <div>
         <Header/>
         <DownloadButton/>
         
@@ -20,6 +21,7 @@ function SobreMim(){
         <Sobremim/>
         <Faixa/>
         <Progreso/>
+        </div>
         <Rodape/>
         </>
 

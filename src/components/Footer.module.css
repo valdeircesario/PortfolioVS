@@ -1,10 +1,14 @@
 .footer{
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+
+
     width: 100%;
     display: flex;
     justify-content: center;
     bottom: 0;
     text-align: center;
+    height: 30px;
+    border-top: 2px solid rgb(87, 87, 86);
+    
     
 }
 

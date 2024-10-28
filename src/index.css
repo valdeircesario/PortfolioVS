@@ -1,4 +1,6 @@
 
+
+
 :root{
     --aminacao-color:#10eef5;
     --fundo-color:#F9FBE7;
@@ -15,7 +17,9 @@ body {
     color: #D3D3D3;
     font-family:Georgia, 'Times New Roman', Times, serif;
     line-height: 1 ;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
+     
+    
 }
 
 h1, h3,h4 {
