@@ -21,7 +21,6 @@ function SobreMim(){
         <Faixa/>
         <Progreso/>
         <Rodape/>
-        
         </>
 
     )
