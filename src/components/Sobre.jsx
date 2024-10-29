@@ -3,6 +3,7 @@
 import React, { useEffect, useRef } from 'react';
 import Styles from './Sobre.module.css';
 import Faixa from './Faixa';
+import Progreso from './Progress';
 
 function Sobremim() {
   const paragraphsRef = useRef([]);
@@ -81,6 +82,8 @@ Meu portfólio apresenta meus projetos, experiências e contatos, refletindo meu
 </p>
 
       <Faixa/>
+      <Progreso/>
+      
 
       <div className={Styles.icons}>
         <h3>Aqui Estão Algumas linguagens e ferramentas que mais uso e tenho conhecimentos</h3>

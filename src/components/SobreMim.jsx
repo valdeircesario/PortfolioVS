@@ -19,8 +19,8 @@ function SobreMim(){
         
         <Cubo/>
         <Sobremim/>
-        <Faixa/>
-        <Progreso/>
+        
+        
         </div>
         <Rodape/>
         </>
