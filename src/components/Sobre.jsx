@@ -62,20 +62,24 @@ function Sobremim() {
 Sou um profissional de TI com uma sólida formação no Instituto Federal, onde desenvolvi habilidades em lógica de programação, gerenciamento de projetos e metodologias ágeis, como Scrum e Kanban. Minha especialização abrange Java, SQL, desenvolvimento web e estrutura de dados.
 
 </p>
-
 <p ref={(el) => (paragraphsRef.current[1] = el)} className={Styles.P2}>
-
-Tenho experiência prática em projetos que aplicam meus conhecimentos e busco sempre aprimorar minhas habilidades, participando de cursos presenciais e online, incluindo temas de soft skills, como trabalho em equipe.
+Atualmente, estou iniciando minha carreira como estagiário na POUPEX, atuando no desenvolvimento e realização de testes de software, incluindo testes manuais e automáticos. Estou dedicando meus conhecimentos para contribuir com a qualidade dos sistemas, desempenhando minhas funções com resiliência e trabalhando em estreita colaboração com a equipe, sempre buscando a melhoria contínua e o sucesso coletivo.  
 
 </p>
 
 <p ref={(el) => (paragraphsRef.current[2] = el)} className={Styles.P3}>
 
+Tenho experiência prática em projetos que aplicam meus conhecimentos e busco sempre aprimorar minhas habilidades, participando de cursos presenciais e online, incluindo temas de soft skills, como trabalho em equipe.
+
+</p>
+
+<p ref={(el) => (paragraphsRef.current[3] = el)} className={Styles.P4}>
+
 Sou proficiente em ferramentas como Visual Studio Code, IntelliJ, GitHub e bancos de dados, especialmente PostgreSQL. Minhas habilidades técnicas incluem Java, JavaScript, PHP, HTML, CSS, React, Angular, Quarkus e Bootstrap, respaldadas por certificados que atestam minha capacitação.
 
 </p>
 
-<p ref={(el) => (paragraphsRef.current[3] = el)} className={Styles.P3}>
+<p ref={(el) => (paragraphsRef.current[4] = el)} className={Styles.P5}>
 
 Meu portfólio apresenta meus projetos, experiências e contatos, refletindo meu compromisso em contribuir para o sucesso da equipe e crescer profissionalmente. Estou pronto para novas oportunidades onde possa aplicar meu conhecimento e fazer a diferença.
 
