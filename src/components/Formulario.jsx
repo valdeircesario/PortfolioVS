@@ -20,7 +20,7 @@ const Formulario = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    emailjs.send('service_ez3wgiv', 'template_3kn6b7g', formData, 'Sa_m3nddVb0ZQHxMQ')
+    emailjs.send('service_ez3wgiv', 'template_3kn6b7g', formData, 'jfATqsEVSWFyMD4Tz')
       .then((response) => {
         alert('Mensagem enviada com sucesso!');
         
