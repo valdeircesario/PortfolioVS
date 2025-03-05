@@ -28,7 +28,7 @@
   content: '';
   position: absolute;
   width: 100px;
-  background-image: linear-gradient(180deg, rgb(25, 246, 246), #15caf8);
+  background-image: var(--foto-perfil);
   height: 130%;
   animation: rotBGimg 6s linear infinite;
   transition: all 0.3s linear;
@@ -52,7 +52,7 @@
   background-position: center;
 
   
-  background-image:url(/img/perfil.jpeg);
+  background-image:url(/public/img/perfil.jpeg);
   inset: 3px;
   border-radius: 30px;
   

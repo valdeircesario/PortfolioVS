@@ -9,7 +9,7 @@
     align-items: center; 
     padding: 0 20px; 
     background-color: #777676;
-    color: #10eef5;
+    /* color: #10eef5; */
     z-index: 1000; 
     box-shadow: 0 8px 8px rgba(53, 52, 52, 0.9);
     transition: transform 0.3s ease; 
@@ -31,6 +31,7 @@
 
 
 .siteName {
+  
   font-family: Georgia, 'Times New Roman', Times, serif;
   
   text-decoration: none;
@@ -39,7 +40,7 @@
 }
 
 .siteName:hover{
-  transform: scale(1.4);
+  /* transform: scale(1.4); */
 }
 
 .navLinks {

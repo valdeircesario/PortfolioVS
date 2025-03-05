@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import Styles from './Header.module.css';
 import { Link } from 'react-router-dom';
+import Switch from './Switch';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,6 +35,7 @@ const Header = () => {
     <header className={`${Styles.header} ${isVisible ? '' : Styles.hidden}`}>
       <div className={Styles.logoContainer}>
         <Link className={Styles.siteName} to="/">Portfolio</Link>
+        <Switch/>
       </div>
       <nav className={`${Styles.navLinks} ${isOpen ? Styles.open : ''}`}>
         <Link className={Styles.link} to="/">Home</Link>

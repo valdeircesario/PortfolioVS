@@ -30,7 +30,7 @@ const Progreso = () => {
   return (
     <StyledWrapper>
       <div className={`container ${isVisible ? "visible" : ""}`} ref={progresoRef}>
-        <h2>Habilidades em Linguagens de Programação e Frameworks</h2>
+        <h3>Habilidades em Linguagens de Programação e Frameworks</h3>
         <div className="skill-box">
           <span className="title">HTML</span>
 
@@ -110,7 +110,7 @@ const Progreso = () => {
         </div>
       </div>
       <div className={`container ${isVisible ? "visible" : ""}`} ref={progresoRef}>
-        <h2>SOFT SKILLS E METODOLOGIAS.</h2>
+        <h3>SOFT SKILLS E METODOLOGIAS.</h3>
         <div className="skill-box">
           <span className="title">Trabalho em Equipe:</span>
 
@@ -203,11 +203,10 @@ const Progreso = () => {
 };
 
 const StyledWrapper = styled.div`
-h2{
+h3{ color:var(--h3-color);
 text-align: center;
 font-size:1.2rem;
-
-margin-bottom: 40px;
+margin-bottom: 10px;
 }
 .container {
     margin: 45px 20%;

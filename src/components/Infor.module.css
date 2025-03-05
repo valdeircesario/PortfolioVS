@@ -50,7 +50,7 @@
     box-shadow: 0 5px 9px rgba(0, 0, 0, 0.9);
     border-radius: 15px;
     text-decoration: none;
-    color: #10eef5;
+    /* color: #10eef5; */
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.6rem;
     transition: background-color 0.3s, color 0.3s;

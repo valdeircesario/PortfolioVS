@@ -10,8 +10,9 @@
 .button {
     padding: 10px 20px;
     font-size: 16px;
-    color: #fff;
-    background-color: #069caa;
+
+    color:var(--color-filter);
+    background-color:var(--backgrond-02);
     border: none;
     border-radius: 7px;
     cursor: pointer;

@@ -41,8 +41,8 @@ function Sobremim() {
   return (
     <div className={Styles.sobre}>
       <div className={Styles.text}>
-        <h2>Sobre Mim</h2>
-        <h3>Cursando Bacharelado em Sistema da Informação</h3>
+        <h1>Sobre Mim</h1>
+        <h2>Cursando Bacharelado em Sistema da Informação</h2>
       </div>
 
       <div className={Styles.ifg}>
@@ -90,7 +90,7 @@ Meu portfólio apresenta meus projetos, experiências e contatos, refletindo meu
       
 
       <div className={Styles.icons}>
-        <h3>Aqui Estão Algumas linguagens e ferramentas que mais uso e tenho conhecimentos</h3>
+        <h2>Aqui Estão Algumas linguagens e ferramentas que mais uso e tenho conhecimentos</h2>
         <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
         <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" />
         <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />

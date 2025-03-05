@@ -41,7 +41,8 @@ button {
   border: none; 
   border-radius: 8px; 
   background-color: #1a2b36; 
-  font-size: 16px; 
+  font-size: 16px;
+  color: var(--h3-color); 
   cursor: pointer; 
   transition: background-color 0.3s; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
@@ -69,7 +70,7 @@ button:hover {
   top: -37px;
   transition: 0.3s;
   pointer-events: none;
-  color: #fff;
+  color:var(--h3-color);
   
 }
 
@@ -86,7 +87,7 @@ button:hover {
   outline: none;
   padding: 0px 7px;
   border-radius: 8px;
-  color: #fff;
+  color:var(--h3-color);
   font-size: 1rem;
   background-color: transparent;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 1),
@@ -100,7 +101,7 @@ button:hover {
   outline: none;
   padding: 0px 7px;
   border-radius: 8px;
-  color: #fff;
+ color:var(--h3-color);
   font-size: 1rem;
   background-color: transparent;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 1),
@@ -110,7 +111,7 @@ button:hover {
 
 .input:focus {
   border: 2px solid transparent;
-  color: #fff;
+  color:var(--h3-color);
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 1),
     -1px -1px 6px rgba(255, 255, 255, 0.4), inset 3px 3px 10px rgba(0, 0, 0, 1),
     inset -1px -1px 6px rgba(255, 255, 255, 0.4);
@@ -118,7 +119,7 @@ button:hover {
 }
 .inputmensagem :focus{
   border: 2px solid transparent;
-  color: #fff;
+  color:var(--h3-color);
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 1),
     -1px -1px 6px rgba(255, 255, 255, 0.4), inset 3px 3px 10px rgba(0, 0, 0, 1),
     inset -1px -1px 6px rgba(255, 255, 255, 0.4);

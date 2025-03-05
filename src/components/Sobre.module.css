@@ -18,24 +18,23 @@
     justify-content: center; 
 }
 
-.sobre h2 {
+.sobre h1 {
     
     text-align: center; 
     font-size: 2.4rem;
-    color: #10eef5;
+    
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .ifg li {
-    color: #10eef5;
+    
     margin-top: 0;
     list-style-type: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.sobre h3 {
+.sobre h2 {
     margin-top: -20px;
-    color: #10eef5;
     text-align: center; 
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.4rem;

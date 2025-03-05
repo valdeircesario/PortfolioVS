@@ -29,85 +29,86 @@
   position: absolute;
   width: 200px;
   height: 200px;
-  color: rgb(11, 207, 242);
+  color: var(--color-cubo);
   font-size: 18px;
   text-align: center;
   line-height: 200px;
   background: transparent;
   opacity: 0.9;
   border: 2px solid;
-  border-image: linear-gradient(to right, #10eef5, #02e5f9, #bec6ec, #1c1d1c, #4f5750) 1;
-  box-shadow: 0 0 100px rgba(2, 234, 203, 0.8);
+
+  border-image-source: var(--border-cubo) 1;
+  box-shadow: 0 0 100px var(--color-cubo);
 }
 .back {
   position: absolute;
   width: 200px;
   height: 200px;
-  color: rgb(11, 207, 242);
+  color: var(--color-cubo);
   font-size: 18px;
   text-align: center;
   line-height: 200px;
   background: transparent;
   opacity: 0.9;
   border: 2px solid;
-  border-image: linear-gradient(to right, #10eef5, #02e5f9, #bec6ec, #1c1d1c, #4f5750) 1;
-  box-shadow: 0 0 100px rgba(2, 234, 203, 0.8);
+  border-image: var(--border-cubo) 1;
+  box-shadow: 0 0 100px var(--color-cubo);
 }
 .left {
   position: absolute;
   width: 200px;
   height: 200px;
-  color: rgb(11, 207, 242);
+  color: var(--color-cubo);
   font-size: 18px;
   text-align: center;
   line-height: 200px;
   background: transparent;
   opacity: 0.9;
   border: 2px solid;
-  border-image: linear-gradient(to right, #10eef5, #02e5f9, #bec6ec, #1c1d1c, #4f5750) 1;
-  box-shadow: 0 0 100px rgba(2, 234, 203, 0.8);
+  border-image: var(--border-cubo  1);
+  box-shadow: 0 0 100px var(--color-cubo);
 }
 .right {
   position: absolute;
   width: 200px;
   height: 200px;
-  color: rgb(11, 207, 242);
+  color: var(--color-cubo);
   font-size: 18px;
   text-align: center;
   line-height: 200px;
   background: transparent;
   opacity: 0.9;
   border: 2px solid;
-  border-image: linear-gradient(to right, #10eef5, #02e5f9, #bec6ec, #1c1d1c, #4f5750) 1;
-  box-shadow: 0 0 100px rgba(2, 234, 203, 0.8);
+  border-image: var(--border-cubo) 1;
+  box-shadow: 0 0 100px var(--color-cubo);
 }
 .bottom {
   position: absolute;
   width: 200px;
   height: 200px;
-  color: rgb(11, 207, 242);
+  color: var(--color-cubo);
   font-size: 18px;
   text-align: center;
   line-height: 200px;
   background: transparent;
   opacity: 0.9;
   border: 2px solid;
-  border-image: linear-gradient(to right, #10eef5, #02e5f9, #bec6ec, #1c1d1c, #4f5750) 1;
-  box-shadow: 0 0 100px rgba(2, 234, 203, 0.8);
+  border-image: var(--border-cubo) 1;
+  box-shadow: 0 0 100px var(--color-cubo);
 }
 .top {
   position: absolute;
   width: 200px;
   height: 200px;
-   color: rgb(11, 207, 242);
+   color: var(--color-cubo);
   font-size: 18px;
   text-align: center;
   line-height: 200px;
   background: transparent;
   opacity: 0.9;
   border: 2px solid;
-  border-image: linear-gradient(to right, #10eef5, #02e5f9, #bec6ec, #1c1d1c, #4f5750) 1;
-  box-shadow: 0 0 100px rgba(2, 234, 203, 0.8);
+  border-image: var(--border-cubo) 1;
+  box-shadow: 0 0 100px var(--color-cubo);
 }
 
 
