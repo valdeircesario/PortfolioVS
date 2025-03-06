@@ -203,7 +203,8 @@ const Progreso = () => {
 };
 
 const StyledWrapper = styled.div`
-h3{ color:var(--h3-color);
+h3{ 
+color:var(--h3-color);
 text-align: center;
 font-size:1.2rem;
 margin-bottom: 10px;
@@ -211,7 +212,7 @@ margin-bottom: 10px;
 .container {
     margin: 45px 20%;
     width: 60%;
-    box-shadow: 0 8px 8px 8px rgba(0, 0, 0, 0.9);
+    box-shadow: 0 8px 8px 8px var(--box-shondon1);
     padding: 10px 20px;
     border-radius: 10px;
     user-select: none;
@@ -237,6 +238,7 @@ margin-bottom: 10px;
   display: block;
   font-size: 14px;
   font-weight: 600;
+  color:var(--h3-color);
 }
 
 .skill-box .skill-bar {
@@ -244,7 +246,7 @@ margin-bottom: 10px;
   width: 100%;
   border-radius: 6px;
   margin-top: 6px;
-  background: rgba(0, 0, 0, 0.1);
+  background: var(--background-barra);
 }
 
 .skill-bar .skill-per {
@@ -253,7 +255,7 @@ margin-bottom: 10px;
   height: 100%;
   width: 90%;
   border-radius: 6px;
-  background: #d0cffc;
+  background:var(--h3-color);
   animation: progress 0.4s ease-in-out forwards;
   opacity: 0;
 }

@@ -20,7 +20,7 @@
 }
 
 .button:hover {
-    background-color: #bcf0f2;
+    background-color: #504f4f;
     color: black;
     transform: scale(1.1);
 }

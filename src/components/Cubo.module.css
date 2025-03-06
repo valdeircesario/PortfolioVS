@@ -1,5 +1,6 @@
  
 .cubocontener{
+  /* color: var(--h3-color); */
 
   width: 200px;
   height: 200px;
@@ -29,7 +30,8 @@
   position: absolute;
   width: 200px;
   height: 200px;
-  color: var(--color-cubo);
+  /* color: var(--color-cubo); */
+  color: var(--h3-color);
   font-size: 18px;
   text-align: center;
   line-height: 200px;
@@ -44,7 +46,7 @@
   position: absolute;
   width: 200px;
   height: 200px;
-  color: var(--color-cubo);
+  color: var(--h3-color);
   font-size: 18px;
   text-align: center;
   line-height: 200px;
@@ -58,7 +60,8 @@
   position: absolute;
   width: 200px;
   height: 200px;
-  color: var(--color-cubo);
+  /* color: var(--color-cubo); */
+  color: var(--h3-color);
   font-size: 18px;
   text-align: center;
   line-height: 200px;
@@ -72,7 +75,8 @@
   position: absolute;
   width: 200px;
   height: 200px;
-  color: var(--color-cubo);
+  /* color: var(--color-cubo); */
+  color: var(--h3-color);
   font-size: 18px;
   text-align: center;
   line-height: 200px;
@@ -86,7 +90,8 @@
   position: absolute;
   width: 200px;
   height: 200px;
-  color: var(--color-cubo);
+  /* color: var(--color-cubo); */
+  color: var(--h3-color);
   font-size: 18px;
   text-align: center;
   line-height: 200px;
@@ -100,7 +105,8 @@
   position: absolute;
   width: 200px;
   height: 200px;
-   color: var(--color-cubo);
+   /* color: var(--color-cubo); */
+   color: var(--h3-color);
   font-size: 18px;
   text-align: center;
   line-height: 200px;

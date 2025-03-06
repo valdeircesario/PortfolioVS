@@ -274,7 +274,8 @@ em critérios personalizados, garantindo a escolha mais adequada para suas neces
             )}
             {project.links && project.links.length > 0 && (
           <a href={project.links} target="_blank" rel="noopener noreferrer">
-            Acesse aqui meu projeto online
+            🚀 Acesse aqui meu projeto online
+            
           </a>
         )}
           </div>

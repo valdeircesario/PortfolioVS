@@ -34,7 +34,7 @@ const Header = () => {
   return (
     <header className={`${Styles.header} ${isVisible ? '' : Styles.hidden}`}>
       <div className={Styles.logoContainer}>
-        <Link className={Styles.siteName} to="/">Portfolio</Link>
+        <Link className={Styles.siteName} to="/">Portfólio</Link>
         <Switch/>
       </div>
       <nav className={`${Styles.navLinks} ${isOpen ? Styles.open : ''}`}>

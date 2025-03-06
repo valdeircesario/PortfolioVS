@@ -11,12 +11,12 @@
     margin-left: 100px;
 }
 .text a{
-    color: #6c6af4;
+    color: #0b07f6;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 1.1rem;
 }
 .text a:hover{
-    color: #405bf7;
+    color: #7083ee;
 }
 
 .aminent {
@@ -29,7 +29,8 @@
 }
 
 .proj01 {
-    
+        
+    font-family:Georgia, 'Times New Roman', Times, serif;
     width: 95%;
     display: flex;
     justify-content: center;

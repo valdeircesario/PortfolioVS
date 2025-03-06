@@ -14,7 +14,8 @@
 }
 
 .cube {
-  color: var(--french-color);
+  /* color: var(--french-color); */
+  color: var(--h3-color);
   position: relative;
   width: 100%;
   height: 100%;
@@ -27,7 +28,8 @@
   position: absolute;
   width: 200px;
   height: 200px;
-  color: var(--french-color);
+  /* color: var(--french-color); */
+  color: var(--h3-color);
   font-size: 18px;
   text-align: center;
   line-height: 200px;

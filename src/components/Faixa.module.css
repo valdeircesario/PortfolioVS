@@ -11,10 +11,10 @@
 .loader .black .overlay {
   background: linear-gradient(
     100deg,
-    rgb(0, 0, 0) 0%,
-    rgba(0, 0, 0, 0.14) 30%,
-    rgba(0, 0, 0, 0.14) 70%,
-    rgb(0, 0, 0) 100%
+    rgb(245, 231, 231) 0%,
+    rgba(212, 211, 211, 0.14) 30%,
+    rgba(237, 221, 221, 0.14) 70%,
+    rgb(189, 188, 188) 100%
   );
   position: absolute;
   inset: 0px;
@@ -28,8 +28,8 @@
   background: linear-gradient(
     87deg,
     rgba(0, 0, 0, 0) 0%,
-    rgb(0, 204, 255) 40%,
-    rgb(0, 204, 255) 60%,
+    rgb(246, 246, 247) 40%,
+    rgb(173, 173, 173) 60%,
     rgba(0, 0, 0, 0) 100%
   );
   animation: light 8s infinite ease-in-out;

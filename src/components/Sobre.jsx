@@ -41,17 +41,17 @@ function Sobremim() {
   return (
     <div className={Styles.sobre}>
       <div className={Styles.text}>
-        <h1>Sobre Mim</h1>
-        <h2>Cursando Bacharelado em Sistema da Informação</h2>
+        <h1>👤Sobre Mim</h1>
+        <h2>💻 Cursando Bacharelado em Sistema da Informação</h2>
       </div>
 
       <div className={Styles.ifg}>
         <ul>
-          <li>Instituto Federal de Educação, Ciência e Tecnologia de Goiás</li>
+          <li>🎓Instituto Federal de Educação, Ciência e Tecnologia de Goiás</li>
           <li>Campus de Luziania</li>
           <li>6° Semestre</li>
         </ul>
-        <a href="https://www.ifg.edu.br/luziania">https://www.ifg.edu.br/luziania</a>
+        <a href="https://www.ifg.edu.br/luziania"> 🔗 https://www.ifg.edu.br/luziania</a>
       </div>
       <Faixa/>
 
