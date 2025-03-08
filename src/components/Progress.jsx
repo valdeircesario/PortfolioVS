@@ -206,12 +206,12 @@ const StyledWrapper = styled.div`
 h3{ 
 color:var(--h3-color);
 text-align: center;
-font-size:1.2rem;
+font-size:1rem;
 margin-bottom: 10px;
 }
 .container {
-    margin: 45px 20%;
-    width: 60%;
+    margin: 35px 5%;
+    width: 80%;
     box-shadow: 0 8px 8px 8px var(--box-shondon1);
     padding: 10px 20px;
     border-radius: 10px;

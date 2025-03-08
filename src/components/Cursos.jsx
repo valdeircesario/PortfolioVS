@@ -200,6 +200,16 @@ function Cursos(){
 "
         />
 
+        <Addcursos
+            coverSrc="/cursos/certificado udemy.PNG"
+            imgSrc="/cursos/certificado udemy.PNG"
+            altText="TESTES DE SOFTWARE"
+            title="TESTES DE SOFTWARE"
+            description="Concluí o curso de **Testes de Software e Testes Automáticos**, adquirindo conhecimentos em testes manuais e automatizados, frameworks de automação e boas práticas de qualidade. Estou preparado para aplicar essas habilidades na validação e garantia da confiabilidade de sistemas.
+
+"
+        />
+
 
         </div>
             

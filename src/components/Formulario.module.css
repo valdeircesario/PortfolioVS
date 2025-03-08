@@ -18,13 +18,13 @@ display: flex;
   
 }
 .formulario{
-  transition: 0.10s ease-out;
+  /* transition: 0.10s ease-out; */
   
 
 }
 
 .formulario :hover{
-  transform: scale(1.05);
+  /* transform: scale(1.05); */
 
 }
 

@@ -115,7 +115,7 @@
     }
 
     .sobre h2 {
-        font-size: 2rem; 
+        font-size: 1.2rem; 
     }
 
     .sobre h3 {
@@ -139,11 +139,15 @@
     }
 
     .sobre h2 {
-        font-size: 1.8rem; 
+        font-size: 1.2rem; 
+        /* margin-bottom: -10px; */
+    }
+    .sobre h1{
+        font-size: 2rem;
     }
 
     .sobre h3 {
-        font-size: 1.2rem; 
+        font-size: 1rem; 
     }
 
     .ifg {
