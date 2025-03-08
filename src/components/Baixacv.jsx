@@ -4,12 +4,7 @@ import Styles from './Baixacv.module.css'; // Importando o CSS
 
 const DownloadButton = () => {
     const handleDownload = () => {
-        const link = document.createElement('a');
-        link.href = '/curriculoo/CurrículopessoalvaldeirVC.pdf'; // Altere o caminho para o seu arquivo PDF
-        link.download = '/curriculoo/CurrículopessoalvaldeirVC.pdf'; // Nome do arquivo ao ser baixado
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
+        window.open('https://ifgoias-my.sharepoint.com/:b:/g/personal/valdeir_cesario_academico_ifg_edu_br/EZ_coAebAHBBrWRdiQ5hSFABzpRv3wWWqRyG_gBhaA4xmA?e=QtL2oN', '_blank');
     };
 
     return (
